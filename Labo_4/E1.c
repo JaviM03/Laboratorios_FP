@@ -8,10 +8,7 @@ Al transponer una matriz se hace el cambio de filas por columnas y de las column
     {
         int matriz[MAX][MAX],filas=3,col=3;
 
-        /*printf("Ingrese la cantidad de filas: ");
-        scanf("%d",&filas);
-           printf("Ingrese la cantidad de columnas: ");
-        scanf("%d",&col);*/
+       //Le damos valores a la matriz
         for(int i=0;i<filas;i++){
             for(int j=0;j<col;j++){
                 printf("Escribre los valores de la matriz en la posicion:[%d] [%d]: ",i+1,j+1);
